@@ -54,7 +54,7 @@ while not game_over:
     grid[br_igracevog_polja]=na_potezu 
     br_poteza+=1
     
-    if br_poteza==15:
+    if br_poteza==16:
         print('Nema pobjednika')
         grid = {'0':'', '1':'', '2':'', '3':'',
                 '4':'', '5':'', '6':'', '7':'',
