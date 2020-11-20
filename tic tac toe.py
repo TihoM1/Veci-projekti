@@ -36,6 +36,11 @@ def check_winner(gameboard):
         return True 
     elif grid['3']==grid['7']==grid['11']==grid['15']!='':
         return True
+    
+    elif grid['0']==grid['5']==grid['10']==grid['15']!='':#dijagonale
+        return True
+    elif grid['3']==grid['6']==grid['9']==grid['12']!='':
+        return True
 
     
 
