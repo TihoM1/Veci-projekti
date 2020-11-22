@@ -77,7 +77,7 @@ def dijeliti():
     operacija = '/' 
 
 
-dugme1 = Button(kalkulator, text="1", bd=5, bg="#3EACEB", activebackground="#00FFF7", command = lambda : click(1))#kreiranje dugmati i dodjela funkcija (brojevi)
+dugme1 = Button(kalkulator, text="1", bd=5, bg="#3EACEB", activebackground="#00FFF7", command = lambda : click(1))#kreiranje dugmadi i dodjela funkcija (brojevi)
 dugme2 = Button(kalkulator, text="2", bd=5, bg="#3EACEB", activebackground="#00FFF7", command = lambda : click(2))
 dugme3 = Button(kalkulator, text="3", bd=5, bg="#3EACEB", activebackground="#00FFF7", command = lambda : click(3))
 dugme4 = Button(kalkulator, text="4", bd=5, bg="#3EACEB", activebackground="#00FFF7", command = lambda : click(4))
@@ -89,7 +89,7 @@ dugme9 = Button(kalkulator, text="9" ,bd=5, bg="#3EACEB", activebackground="#00F
 dugme0 = Button(kalkulator, text="0", bd=5, bg="#3EACEB", activebackground="#00FFF7", command = lambda : click(0))
 
     
-clear = Button(kalkulator, text="C", bd=3, bg="#0378FE", activebackground="#277E7B", command = Clear)#kreiranje dugmati i dodjela funkcija (operacije)
+clear = Button(kalkulator, text="C", bd=3, bg="#0378FE", activebackground="#277E7B", command = Clear)#kreiranje dugmadi i dodjela funkcija (operacije)
 plus = Button(kalkulator, text="+", bd=3, bg="#F15050", activebackground="#277E7B", command = sabiranje)
 minus = Button(kalkulator, text="-", bd=3, bg="#0378FE", activebackground="#277E7B",command = oduzimanje)
 mnozenje = Button(kalkulator, text="*", bd=3, bg="#0378FE", activebackground="#277E7B", command = mnoziti)
